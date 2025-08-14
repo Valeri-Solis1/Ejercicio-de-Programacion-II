@@ -7,6 +7,8 @@ Este repositorio contiene los ejercicios de nivelación de java
 - Contador de Vocales y Consonantes
 - Invertir una cadena
 
+## Samir Rosero y Valeri Solis
+
 # Preguntas y Respuestas 
 
 Markdown 
