@@ -51,76 +51,76 @@ Un commit se crea con Git commit. Guarda:
 - •	Git te pide que elijas qué parte conservar.
 
 8. ¿Cómo funciona el área de staging (git add)?
-git add manda los cambios al área de preparación (staging).
-Si no haces este paso, Git no guarda ese cambio cuando haces el commit.
+- git add manda los cambios al área de preparación (staging).
+- Si no haces este paso, Git no guarda ese cambio cuando haces el commit.
 
 9. ¿Qué es? gitignore?
-Es un archivo donde tú le dices a Git qué cosas no debe guardar, como carpetas temporales o archivos privados.
+- Es un archivo donde tú le dices a Git qué cosas no debe guardar, como carpetas temporales o archivos privados.
 
 10. ¿Qué diferencia hay entre --amend y un nuevo commit?
-•	--amend: cambia el último commit (corrige algo).
-•	Nuevo commit: agrega uno nuevo al final.
+- •	--amend: cambia el último commit (corrige algo).
+- •	Nuevo commit: agrega uno nuevo al final.
 
 11. ¿Para qué sirve git stash?
-Guarda cambios temporalmente si necesitas cambiar de tarea sin perder lo que llevabas.
+- Guarda cambios temporalmente si necesitas cambiar de tarea sin perder lo que llevabas.
 
 12. ¿Cómo deshacer cambios en Git?
-Git tiene comandos para deshacer errores:
-•	git reset: borra cambios en el historial.
-•	git revert: crea un nuevo commit que revierte otro.
-•	git checkout: regresa archivos a un estado anterior.
+- Git tiene comandos para deshacer errores:
+- •	git reset: borra cambios en el historial.
+- •	git revert: crea un nuevo commit que revierte otro.
+- •	git checkout: regresa archivos a un estado anterior.
 
 13. ¿Cómo se configuran los remotos (origin, upstream)?
-•	Origin: es el repositorio principal (donde subes tu código).
-•	Upstream: es otro repositorio, como el original de donde hiciste una copia (fork).
-Se usan comandos como:
-git remote add origin <url>
-git remote add upstream <url>
+- •	Origin: es el repositorio principal (donde subes tu código).
+- •	Upstream: es otro repositorio, como el original de donde hiciste una copia (fork).
+- Se usan comandos como:
+- git remote add origin <url>
+- git remote add upstream <url>
 
 
 14. ¿Cómo ver el historial de cambios?
-Puedes ver qué pasó con estos comandos:
-•	git log: muestra la historia de todos los commits.
-•	git diff: muestra exactamente qué cambió.
-•	git show: muestra un commit completo (contenido, autor, fecha...).
+- Puedes ver qué pasó con estos comandos:
+- •	git log: muestra la historia de todos los commits.
+- •	git diff: muestra exactamente qué cambió.
+- •	git show: muestra un commit completo (contenido, autor, fecha...).
 
 
 # PROGRAMACIÓN
 
 15. ¿Cuáles son los tipos de datos primitivos en Java?
-Son los datos más básicos que Java puede usar:
-•	int: números enteros (como 5)
-•	double: números con decimales (como 3.14)
-•	char: una sola letra (como 'A')
-•	boolean: verdadero o falso (true o false)
-•	byte, short, long, float: otros tipos de números, más grandes o pequeños
+- Son los datos más básicos que Java puede usar:
+- •	int: números enteros (como 5)
+- •	double: números con decimales (como 3.14)
+- •	char: una sola letra (como 'A')
+- •	boolean: verdadero o falso (true o false)
+- •	byte, short, long, float: otros tipos de números, más grandes o pequeños
 
 16. ¿Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en Java?
-•	if / else: El programa toma decisiones. Si pasa algo, hace una cosa. Si no, hace otra.
-•	switch: Elige entre varias opciones dependiendo del valor.
-•	while / for: Son repeticiones. Hacen algo muchas veces.
+- •	if / else: El programa toma decisiones. Si pasa algo, hace una cosa. Si no, hace otra.
+- •	switch: Elige entre varias opciones dependiendo del valor.
+- •	while / for: Son repeticiones. Hacen algo muchas veces.
 
 17. ¿Por qué es importante usar nombres significativos para variables y métodos?
-Porque así es más fácil entender el código.
+- Porque así es más fácil entender el código.
 
 18. ¿Qué es la Programación Orientada a Objetos (POO)?
-Es una forma de programar donde todo se basa en objetos, que tienen datos (atributos) y acciones (métodos).
+- Es una forma de programar donde todo se basa en objetos, que tienen datos (atributos) y acciones (métodos).
 
 19. ¿Cuáles son los cuatro pilares de la POO?
-•   Abstracción: Mostrar lo importante, esconder lo complicado.
-•	Encapsulamiento: Proteger los datos dentro del objeto.
-•	Herencia: Reutilizar código de otros objetos.
-•	Polimorfismo: Usar una misma acción, pero que se comporte diferente según el caso.
+- •   Abstracción: Mostrar lo importante, esconder lo complicado.
+- •	Encapsulamiento: Proteger los datos dentro del objeto.
+- •	Herencia: Reutilizar código de otros objetos.
+- •	Polimorfismo: Usar una misma acción, pero que se comporte diferente según el caso.
 
 20. ¿Qué es la herencia en POO y cómo se utiliza en Java?
-La herencia permite que una clase (hijo) herede cosas de otra (padre).
+- La herencia permite que una clase (hijo) herede cosas de otra (padre).
 
 21. ¿Qué son los modificadores de acceso y cuáles son los más comunes en Java?
-Controlan quién puede ver o usar algo en tu programa:
-•	public: cualquiera puede usarlo.
-•	private: solo se usa dentro de la misma clase.
-•	protected: se usa dentro de la clase o sus hijos.
+- Controlan quién puede ver o usar algo en tu programa:
+- •	public: cualquiera puede usarlo.
+- •	private: solo se usa dentro de la misma clase.
+- •	protected: se usa dentro de la clase o sus hijos.
 
 22. ¿Qué es una variable de entorno y por qué son importantes para Java o la programación?
-Es una configuración del sistema que el programa usa para funcionar bien (como saber dónde está instalado Java).
+- Es una configuración del sistema que el programa usa para funcionar bien (como saber dónde está instalado Java).
 
