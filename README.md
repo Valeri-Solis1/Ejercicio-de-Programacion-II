@@ -19,9 +19,9 @@ Git
 Es un directorio especial que contiene todos los archivos y el historial de versiones de un proyecto, un proyecto normal es una carpeta con archivos. Un repositorio Git es un proyecto que usa Git para registrar cambios, gestionar versiones y facilitar la colaboración.
 
 2. ¿Cuáles son las tres áreas principales de Git?
-•	Working Directory (directorio de trabajo): Es la carpeta donde tú editas los archivos.
-•	Staging Area (área de preparación): Es como una lista donde dices qué cambios quieres guardar.
-•	Repository (repositorio): Es donde Git guarda todo el historial de cambios.
+- •	Working Directory (directorio de trabajo): Es la carpeta donde tú editas los archivos.
+- •	Staging Area (área de preparación): Es como una lista donde dices qué cambios quieres guardar.
+- •	Repository (repositorio): Es donde Git guarda todo el historial de cambios.
 
 3. ¿Cómo representa Git los cambios internamente?
 Git guarda los archivos como objetos:
