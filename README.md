@@ -25,30 +25,30 @@ Es un directorio especial que contiene todos los archivos y el historial de vers
 
 3. ¿Cómo representa Git los cambios internamente?
 Git guarda los archivos como objetos:
-•	Blob: Guarda el contenido del archivo.
-•	Tree: Guarda las carpetas y cómo se organizan.
-•	Commit: Guarda la historia de los cambios.
-•	Tag: Es como una etiqueta que marca una versión importante.
+- •	Blob: Guarda el contenido del archivo.
+- •	Tree: Guarda las carpetas y cómo se organizan.
+- •	Commit: Guarda la historia de los cambios.
+- •	Tag: Es como una etiqueta que marca una versión importante.
 
 
 4. ¿Cómo se crea un commit y qué guarda?
 Un commit se crea con Git commit. Guarda:
-•	Los cambios que hiciste.
-•	Quién los hizo.
-•	Cuando se hicieron.
-•	Un mensaje explicando el cambio.
+- •	Los cambios que hiciste.
+- •	Quién los hizo.
+- •	Cuando se hicieron.
+- •	Un mensaje explicando el cambio.
 
 5. ¿Cuál es la diferencia entre git pull y git fetch?
-•	git fetch: solo trae los cambios del servidor, pero no los aplica.
-•	git pull: trae y aplica los cambios automáticamente.
+- •	git fetch: solo trae los cambios del servidor, pero no los aplica.
+- •	git pull: trae y aplica los cambios automáticamente.
 
 6. ¿Qué es un branch (rama)?
-Es una línea de trabajo separada. Git usa ramas para que puedas trabajar en nuevas ideas sin dañar el proyecto principal.
+- Es una línea de trabajo separada. Git usa ramas para que puedas trabajar en nuevas ideas sin dañar el proyecto principal.
 
 7. ¿Cómo se hace un merge y qué conflictos hay?
-•	Merge es juntar dos ramas.
-•	A veces, si dos personas cambian el mismo texto, hay un conflicto.
-•	Git te pide que elijas qué parte conservar.
+- •	Merge es juntar dos ramas.
+- •	A veces, si dos personas cambian el mismo texto, hay un conflicto.
+- •	Git te pide que elijas qué parte conservar.
 
 8. ¿Cómo funciona el área de staging (git add)?
 git add manda los cambios al área de preparación (staging).
